@@ -1,38 +1,96 @@
-.App {
+@font-face {
+  font-family: Montserrat;
+  src: local('Montserrat'), url(./fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+body {
   text-align: center;
+  background-color: #d896ff;
+  font-family: Montserrat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 8vh;
+  min-width: 100%;
+  background: #800080;
+  color: #efbbff;
+  position: fixed;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  float: center;
+  color: #efbbff;
+  width: 17vw;
+  height: 6vh;
+  margin: 1vh auto;
+  font-size: 3vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dotcom {
+  font-size: 1.2vh;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-left: 17vw;
+  font-size: 2vh;
+}
+
+.sidebar {
+  position: relative;
+  float: left;
+  background: #800080;
+  min-height: 100%;
+  min-width: 17vw;
+  position: fixed;
+}
+
+.headshot {
+  max-width: 22vh;
+  max-height: 22vw;
+  border: 1vh solid #d896ff;
+  margin-top: 2em;
+}
+
+.connect {
+  color: #efbbff;
+  font-size: 1.8vh;
+  margin-top: 4vh;
+}
+
+.profile_links {
+  border-top: 2px solid #d896ff;
+  margin-left: .6em;
+  margin-right: .6em;
+}
+
+.p_link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  display: inline-block;
+  margin-top: 1vh;
+}
+
+.link_text {
+  color: #efbbff;
+  display: inline-block;
+  margin-left: .6em;
+  vertical-align: top;
+  font-size: 1.8vh;
+}
+
+a {
+  text-decoration: none;
+  color: #efbbff;
 }

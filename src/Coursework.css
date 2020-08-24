@@ -1,0 +1,15 @@
+.coursework {
+    display: block;
+    margin-top: 9vh;
+    margin-left: 17vw;
+}
+
+.checkbox, p, h3 {
+    color: #660066;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 3em;
+    margin-top: 3em;
+}

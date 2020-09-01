@@ -9,7 +9,7 @@ class Coursework extends Component {
 
     render() {
         return(
-            <div className="coursework">
+            <div className="coursework-wrapper">
                 <p>Here is a list of courses I have taken and am taking at Lehigh:</p>
                 
                 <label className="checkbox">

@@ -18,19 +18,19 @@ class Sidebar extends Component {
                 <div className="profile_links">
                     <div className="p_link">
                         <a href="mailto:apmitrokostas@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <div className="icon"><Mail height={"3vh"} fill={"#efbbff"}/></div>
+                            <div className="icon"><Mail height={"3.5vh"} fill={"#efbbff"}/></div>
                             <p className="link_text">apmitrokostas@gmail.com</p>
                         </a>
                     </div>
                     <div className="p_link">
                         <a href="mailto:apm322@lehigh.edu" target="_blank" rel="noopener noreferrer">
-                            <div className="icon"><Mail height={"3vh"} fill={"#efbbff"}/></div>
+                            <div className="icon"><Mail height={"3.5vh"} fill={"#efbbff"}/></div>
                             <p className="link_text">apm322@lehigh.edu</p>
                         </a>
                     </div>
                     <div className="p_link">
-                        <a href="http://www.linkedin.com/in/alec-mitrokostas-1a3426173/" target="_blank" rel="noopener noreferrer">
-                            <div className="icon"><Linkedin height={"3vh"} fill={"#efbbff"}/></div>
+                        <a href="http://www.linkedin.com/in/alec-mitrokostas/" target="_blank" rel="noopener noreferrer">
+                            <div className="icon"><Linkedin height={"3.3vh"} fill={"#efbbff"}/></div>
                             <p className="link_text">Alec Mitrokostas</p>
                         </a>
                     </div>

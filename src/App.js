@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
+import About from './About';
 import Header from './Header.js';
 import Sidebar from './Sidebar.js';
 import Coursework from './Coursework.js';
+import Genart from './Genart.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -10,11 +12,11 @@ function App() {
     <Router>
       <Header/>
       <Sidebar/>
-      <div className="content">
         <Switch>
-          <Route path="/coursework" component={Coursework}/>
+            <Route path="/about" component={About}/>
+            <Route path="/coursework" component={Coursework}/>
+            <Route path="/genart" component={Genart}/>
         </Switch>
-      </div>
     </Router>
   );
 }

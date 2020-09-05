@@ -1,0 +1,28 @@
+.projects-wrapper {
+    display: block;
+    margin-top: 9vh;
+    margin-left: 17vw;
+    justify-content: space-around;
+}
+
+.project {
+    height: 400px;
+    width: 45%;
+    border: 1px solid red;
+    display: block;
+    float: left;
+    margin: 2%;
+}
+
+h4 {
+    font-size: 22px;
+    color: #660066;
+    float: left;
+    margin: 2%
+}
+
+.project-text {
+    float: left;
+    margin: 2%;
+    text-align: left;
+}

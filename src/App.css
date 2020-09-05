@@ -36,13 +36,17 @@ h2 {
 }
 
 .nav-links {
-  width: 50%;
+  width: 800px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
   margin-left: 17vw;
-  font-size: 2vh;
+  font-size: 15px;
+}
+
+.active-link {
+  text-decoration: underline !important;
 }
 
 .sidebar {

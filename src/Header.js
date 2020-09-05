@@ -1,39 +1,30 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Link} from 'react-router-dom';
-
-const linkStyle = {
-    textDecoration: 'none',
-    color: '#efbbff',
-
-    "&:hover": {
-        textDecoration: 'underline'
-    }
-}
+import {NavLink} from 'react-router-dom';
 
 class Header extends Component {
     render() {
         return (
                 <nav>
                     <ul className="nav-links">
-                        <Link to="/about" style={linkStyle}>
+                        <NavLink to="/about" activeClassName="active-link" style={{textDecoration: 'none'}}>
                             <li>About</li>
-                        </Link>
-                        <Link to="/coursework" style={linkStyle}>
+                        </NavLink>
+                        <NavLink to="/coursework" activeClassName="active-link" style={{textDecoration: 'none'}}>
                             <li>
                                 Coursework
                             </li>
-                        </Link>
-                        <Link to="/projects" style={linkStyle}>
+                        </NavLink>
+                        <NavLink to="/projects" activeClassName="active-link" style={{textDecoration: 'none'}}>
                             <li>
                                 Projects
                             </li>
-                        </Link>
-                        <Link to="/genart" style={linkStyle}>
+                        </NavLink>
+                        <NavLink to="/genart" activeClassName="active-link" style={{textDecoration: 'none'}}>
                             <li>
                                 Gen. Art
                             </li>
-                        </Link>
+                        </NavLink>
                     </ul>
                 </nav>
         );

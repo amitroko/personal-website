@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
-import headshot from './casualHeadshot.jpg';
-import Github from './Github.js';
-import Mail from './Mail.js';
-import Linkedin from './Linkedin.js';
+import headshot from './images/casualHeadshot.jpg';
+import Github from './components/Github.js';
+import Mail from './components/Mail.js';
+import Linkedin from './components/Linkedin.js';
 
 class Sidebar extends Component {
     render() {
@@ -31,7 +31,7 @@ class Sidebar extends Component {
                     <div className="p_link">
                         <a href="http://www.linkedin.com/in/alec-mitrokostas/" target="_blank" rel="noopener noreferrer">
                             <div className="icon"><Linkedin height={"3.3vh"} fill={"#efbbff"}/></div>
-                            <p className="link_text">Alec Mitrokostas</p>
+                            <p className="link_text">/in/alec-mitrokostas</p>
                         </a>
                     </div>
                     <div className="p_link">

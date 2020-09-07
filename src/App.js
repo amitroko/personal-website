@@ -18,6 +18,7 @@ function App() {
             <Route path="/coursework" component={Coursework}/>
             <Route path="/projects" component={Projects}/>
             <Route path="/genart" component={Genart}/>
+            <Route path="/" component={About}/>
         </Switch>
     </Router>
   );

@@ -122,9 +122,15 @@ a {
   color: #efbbff;
 }
 
-
 .about-wrapper, .coursework-wrapper, .projects-wrapper, .genart-wrapper, .resume-wrapper {
   display: block;
   margin-top: 9vh;
   margin-left: 17vw;
+}
+
+.about-wrapper {
+  font-size: 18px;
+  margin-top: 10vh;
+  margin-left: 18vw;
+  margin-right: 1vw;
 }

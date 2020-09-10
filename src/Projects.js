@@ -16,7 +16,7 @@ class Projects extends Component {
                             <img src={QP} alt="QuickPlaylist"/>
                         </div>
                     </a>
-                    <p className="project-text">Create a new Spotify playlist and instantly populate it with tracks you have recently played. React.js.</p>
+                    <p className="project-text">Create a new Spotify playlist and instantly populate it with tracks you have recently played. React.</p>
                 </div>
                 <div className="project">
                     <h4>4litresounds.com</h4>
@@ -25,21 +25,25 @@ class Projects extends Component {
                             <img src={FourL} alt="4litresounds"/>
                         </div>
                     </a>
-                    <p className="project-text">A website I made for me and my friends' music project. React.js.</p>
+                    <p className="project-text">A promotional website I made for me and my friends' music project. React.</p>
                 </div>
                 <div className="project">
                     <h4>TopSlides</h4>
-                    <div className="project-image">
-                        <img src={TS} alt="TopSlides"/>
-                    </div>
-                    <p className="project-text">View your top artists and tracks as determined by Spotify in a slideshow format. React.js.</p>
+                    <a href="http://spotify-topslides.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                        <div className="project-image">
+                            <img src={TS} alt="TopSlides"/>
+                        </div>
+                    </a>
+                    <p className="project-text">View your top artists and tracks as determined by Spotify in a slideshow format. React.</p>
                 </div>
                 <div className="project">
-                    <h4>Cryptocurrency analysis bot</h4>
-                    <div className="project-image">
-                        <img src={Crypto} alt="crypto"/>
-                    </div>
-                    <p className="project-text">Test multiple trading algorithms on a variety of asset pairs via the Binance.us API. Python.</p>
+                    <h4>Cryptocurrency backtester</h4>
+                    <a href="https://github.com/amitroko/cryptocurrency_backtester" target="_blank" rel="noopener noreferrer">
+                        <div className="project-image">
+                            <img src={Crypto} alt="crypto"/>
+                        </div>
+                    </a>
+                    <p className="project-text">Test multiple trading algorithms on a variety of asset pairs via the Binance.US API. Python.</p>
                 </div>
             </div>
         );

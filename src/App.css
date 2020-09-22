@@ -134,3 +134,33 @@ a {
   margin-left: 18vw;
   margin-right: 1vw;
 }
+
+@media only screen and (max-width: 1024px) {
+  .nav-links {
+    width: 100%;
+    margin-left: 0;
+    justify-content: space-evenly;
+  }
+
+  .sidebar {
+    top: auto;
+    bottom: 0 !important;
+    min-width: 100%;
+    position: relative;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .color-palette {
+    display: none;
+  }
+
+  .about-wrapper, .coursework-wrapper, .projects-wrapper, .genart-wrapper, .resume-wrapper {
+    display: block;
+    margin-top: 9vh;
+    margin-left: 0;
+  }
+
+}

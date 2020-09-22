@@ -41,3 +41,21 @@ h4 {
 .project-image:hover img {
     transform: scale(1.12);
 }
+
+@media only screen and (max-width: 1024px) {
+    .projects-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project {
+        width: 90%;
+    }
+
+    .project-image {
+        float: left;
+        margin: 2%;
+        max-width: 90%;
+        max-height: 55%
+    }
+}

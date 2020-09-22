@@ -13,7 +13,6 @@ function App() {
   return (
     <Router>
       <Header/>
-      <Sidebar/>
         <Switch>
             <Route path="/about" component={About}/>
             <Route path="/coursework" component={Coursework}/>
@@ -22,6 +21,7 @@ function App() {
             <Route path="/resume" component={Resume}/>
             <Route path="/" component={About}/>
         </Switch>
+        <Sidebar/>
     </Router>
   );
 }

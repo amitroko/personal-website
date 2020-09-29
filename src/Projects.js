@@ -29,11 +29,9 @@ class Projects extends Component {
                 </div>
                 <div className="project">
                     <h4>TopSlides</h4>
-                    <a href="http://spotify-topslides.herokuapp.com" target="_blank" rel="noopener noreferrer">
                         <div className="project-image">
                             <img src={TS} alt="TopSlides"/>
                         </div>
-                    </a>
                     <p className="project-text">View your top artists and tracks as determined by Spotify in a slideshow format. React.</p>
                 </div>
                 <div className="project">
